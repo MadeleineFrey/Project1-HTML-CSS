@@ -7,6 +7,22 @@ border: none;
 }
 
 body {
-    font-family: Abel, sans-serif;
+    font-family: 'Abel', sans-serif;
     font-weight: 300;
+    color: #290c29;
+    background-color: white;
+}
+
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+    color:#290c29;
+    letter-spacing: 2px;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
 }
