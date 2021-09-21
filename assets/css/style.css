@@ -53,3 +53,33 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #290c29;
 }
+
+/* Main page */
+/* IMPORTANT!!!! kolla om man endast får ha % eller px när det kommer till Width and height */
+
+#home-page {
+    height: 500px;
+    padding-top: 150px;
+}
+
+/* width 40 image 60% */
+#home-left {
+    width: 30%;
+    padding-left: 10%;
+    height: 500px;
+    float: left;
+    background-color: black;
+    
+}
+
+#home-right {
+    background-color: #290c29;
+    width: 60%;
+    height: 500px;
+    float: right;
+    color: white;
+}
+
+#home-right h1 {
+    color: white;
+}
