@@ -63,23 +63,35 @@ h1, h2 {
 }
 
 /* width 40 image 60% */
-#home-left {
-    width: 30%;
-    padding-left: 10%;
-    height: 500px;
-    float: left;
-    background-color: black;
-    
-}
-
 #home-right {
-    background-color: #290c29;
-    width: 60%;
+    width: 40%;
     height: 500px;
     float: right;
+    background-color: rgb(88, 176, 202);
+}
+
+#home-left {
+    background-color: #fff;
+    width: 50%;
+    margin: 50px 50px 0 50px;
+    height: 300px;
+    float: left;
+    color: #290c29;  
+}
+
+#home-left h1 {
     color: white;
 }
 
-#home-right h1 {
-    color: white;
+#home-left h1 {
+    color: #290c29;
+    text-align: left;
+    padding-top: 25px;
+}
+
+hr {
+    border-top: 1px solid #290c29; 
+    width: 100%;
+    margin: 5px 0;
+
 }
