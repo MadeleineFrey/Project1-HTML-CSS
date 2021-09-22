@@ -128,3 +128,8 @@ footer {
     line-height: 75px;
     letter-spacing: 40px;
 }
+
+/* About page */
+#about-page {
+    color: #290c29;
+}
