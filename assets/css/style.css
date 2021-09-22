@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Raleway:wght@300&display=swap');
 
 * {
-padding: 0;
-margin: 0;
-border: none;
+    padding: 0;
+    margin: 0;
+    border: none;
 }
 
 body {
@@ -16,7 +16,8 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Raleway', sans-serif;
     color: white;
     letter-spacing: 2px;
@@ -41,7 +42,8 @@ header {
     float: right;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -53,11 +55,11 @@ header {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #290c29;
+    border-bottom: 1px solid white;
 }
 
 .active {
-    border-bottom: 1px solid #290c29;
+    border-bottom: 1px solid white;
 }
 
 /* Main page */
@@ -65,24 +67,17 @@ header {
 
 #home-page {
     height: 500px;
-    padding-top: 150px;
+    margin: 100px 50px 50px 50px;
 }
 
 /* width 40 image 60% */
-#home-right {
-    width: 40%;
-    height: 500px;
-    float: right;
-    background-color: rgb(88, 176, 202);
-}
 
 #home-left {
     background-color: #fff;
-    width: 50%;
-    margin: 50px 50px 0 50px;
-    height: 300px;
+    width: 40%;
+    height: 100%;
     float: left;
-    color: #290c29;  
+    color: #290c29;
 }
 
 #home-left h1 {
@@ -96,8 +91,18 @@ header {
 }
 
 hr {
-    border-top: 1px solid #290c29; 
+    border-top: 1px solid #290c29;
     width: 100%;
     margin: 5px 0;
+}
 
+/* image */
+
+#home-right {
+    background: url('../images/pexels-photo-office.jpeg') no-repeat center;
+    width: 40%;
+    height: 100%;
+    float: right;
+    /* margin-right: 50px; */
+    border-radius: 25%;
 }
