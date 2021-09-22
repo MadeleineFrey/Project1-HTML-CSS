@@ -9,8 +9,8 @@ border: none;
 body {
     font-family: 'Abel', sans-serif;
     font-weight: 300;
-    color: #290c29;
-    background-color: white;
+    color: white;
+    /* background-color: white; */
 }
 
 
@@ -18,13 +18,19 @@ body {
 
 h1, h2 {
     font-family: 'Raleway', sans-serif;
-    color:#290c29;
+    color: white;
     letter-spacing: 2px;
 }
 
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
+}
+
+header {
+    background-color: #290c29;
+    height: 64px;
 }
 
 /* Navigation */
