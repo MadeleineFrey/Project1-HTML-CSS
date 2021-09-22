@@ -31,7 +31,7 @@ h2 {
 
 header {
     background-color: #290c29;
-    height: 64px;
+    height: 65px;
 }
 
 /* Navigation */
@@ -67,7 +67,7 @@ header {
 
 #home-page {
     height: 500px;
-    margin: 100px 50px 50px 50px;
+    margin: 115px 50px 50px 50px;
 }
 
 /* width 40 image 60% */
@@ -108,3 +108,24 @@ hr {
 }
 
 /* footer */
+footer {
+    height: 65px;
+    width: 100%;
+    background-color: #290c29;
+    overflow: hidden;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media >li {
+    display: inline;
+}
+
+.social-media i {
+    color: white;
+    font-size: 150%;
+    line-height: 75px;
+    letter-spacing: 40px;
+}
