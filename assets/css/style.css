@@ -9,7 +9,7 @@
 body {
     font-family: 'Abel', sans-serif;
     font-weight: 300;
-    color: white;
+    color:white;
     /* background-color: white; */
 }
 
@@ -40,6 +40,7 @@ header {
     font-size: 110%;
     letter-spacing: 2px;
     float: right;
+    
 }
 
 #menu,
@@ -51,7 +52,7 @@ header {
     list-style-type: none;
     margin: 40px;
     text-decoration: none;
-    color: inherit;
+    color:inherit;
 }
 
 #menu a:hover {
@@ -70,10 +71,10 @@ header {
     margin: 82.5px 50px 82.5px 50px;
 }
 
-/* width 40 image 60% */
+/* width 40 image 60% (check width) */
 
 #home-left {
-    background-color: #fff;
+    background-color: white;
     width: 40%;
     /* height: 100%; */
     float: left;
@@ -132,4 +133,16 @@ footer {
 /* About page */
 #about-page {
     color: #290c29;
+    height: 500px;
+    margin: 82.5px 50px 82.5px 50px;
+}
+
+#about-left {
+    width: 40%;
+    float: left;
+}
+
+#about-left h1 {
+    color: #290c29;
+    text-align: center;
 }
