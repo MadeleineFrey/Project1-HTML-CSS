@@ -15,7 +15,6 @@ body {
     margin-right: auto;
 }
 
-
 /* headings and logo */
 
 h1,
@@ -240,6 +239,11 @@ footer {
 padding-left: 65px;
 }
 
+#send, #reset {
+    padding: 5px;
+    margin: 5px;
+    width: 70px;
+}
 
 /* contact */
 
