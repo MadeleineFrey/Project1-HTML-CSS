@@ -159,3 +159,10 @@ footer {
 
 /* contact */
 
+.form {
+    color: #290c29;
+}
+
+label > input {
+    border: #290c29;
+}
