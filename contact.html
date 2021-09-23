@@ -9,7 +9,7 @@
     <meta name="keywords" content="consulting, management, digital transformation">
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>FreyTab</title>
+    <title>FreyTab|Contact</title>
 </head>
 
 <body>
@@ -25,20 +25,24 @@
     </header>
     <section class="form" method="post">
         <!-- inte 100% -->
-        <form action="https://8000-salmon-carp-ggvoxblx.ws-eu17.gitpod.io/">
+        <form action="https://8000-salmon-carp-ggvoxblx.ws-eu17.gitpod.io/" class="contact-form">
+            <h2>Contact Us!</h2>
 
             <label for="fname">First Name</label>
-            <input id="fname" name="first_name" type="text" required>
+            <input id="fname" name="first_name" type="text" class="tinput" required>
 
             <label for="lname">Last Name</label>
-            <input id="lname" name="last_name" type="text" required>
+            <input id="lname" name="last_name" type="text" class="tinput" required>
 
             <label for="email">Email Address</label>
-            <input id="email" name="email_address" type="email" required>
+            <input id="email" name="email_address" type="email" class="tinput" required>
 
             <label for="message">Message</label>
-            <textarea id="message" namem="message" placeholder="Please enter your message" rows="10" cols="40">
+            <textarea id="message" namem="message" class="tinput" placeholder="Please enter your message" rows="10" cols="40">
             </textarea>
+
+            <input type="submit" value="send">
+            <input type="reset" value="reset">
         </form>
 
     </section>

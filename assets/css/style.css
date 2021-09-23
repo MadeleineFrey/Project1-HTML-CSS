@@ -10,7 +10,9 @@ body {
     font-family: 'Abel', sans-serif;
     font-weight: 300;
     color:white;
-    /* background-color: white; */
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -33,6 +35,10 @@ h2 {
 header {
     background-color: #290c29;
     height: 65px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 
 /* Navigation */
@@ -65,7 +71,6 @@ header {
 }
 
 /* Main page */
-/* IMPORTANT!!!! kolla om man endast får ha % eller px när det kommer till Width and height */
 
 #home-page {
     height: 500px;
@@ -114,6 +119,10 @@ footer {
     width: 100%;
     background-color: #290c29;
     overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0;
 }
 
 .social-media {
@@ -134,8 +143,8 @@ footer {
 /* About page */
 #about-page {
     color: #290c29;
-    height: 500px;
-    margin: 82.5px 50px 82.5px 50px;
+    height: 300px;
+    margin: 82.5px 50px 0 50px;
 }
 
 #about-left {
@@ -157,12 +166,47 @@ footer {
     text-align: center;
 }
 
+/* team */
+
+#about-team {
+    color: #290c29;
+    height: 300px;
+}
+
+#left-team {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: green;
+}
+
+#right-team {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: blue;
+}
+
+#center-team {
+    width: 33%;
+    margin: 0 auto;
+    background-color: crimson;
+}
+
+
 /* contact */
 
 .form {
     color: #290c29;
+    height: 500px;
 }
 
-label > input {
-    border: #290c29;
+/* .contact-form {
+    
+} */
+
+.tinput {
+    border: 1px solid #290c29;
+    
 }
+
