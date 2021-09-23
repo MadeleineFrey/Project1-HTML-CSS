@@ -74,7 +74,8 @@ header {
 
 #home-page {
     height: 500px;
-    margin: 82.5px 50px 82.5px 50px;
+    padding-top: 15px;
+    margin: 82.5px 50px 0px 50px;
 }
 
 /* width 40 image 60% (check width) */
@@ -109,9 +110,30 @@ hr {
     width: 40%;
     height: 100%;
     float: right;
-    /* margin-right: 50px; */
+    padding-top: 50px;
     border-radius: 25%;
+    margin-top: 25px;
 }
+
+/* Home -> contact nav */
+
+#contact-nav {
+padding: 0px 0px 50px 270px;
+
+}
+
+#contact-nav a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid #290c29;
+    background-color: #290c29;
+    border-radius: 10px;
+    /* appearance: button; */
+    padding: 0px 50px 0px 50px;
+    font-size: 2rem;
+
+}
+
 
 /* footer */
 footer {
