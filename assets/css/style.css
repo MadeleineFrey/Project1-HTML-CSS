@@ -243,17 +243,46 @@ padding-left: 65px;
 
 /* contact */
 
-.form {
-    color: #290c29;
-    height: 500px;
+.form{
+    width: 100%;
 }
 
-/* .contact-form {
-    
-} */
+.contact-form {
+    color: white;
+    height: 500px;
+    width: auto;
+    padding-top: 200px;
+    float: left;
+    padding-left: 50px;
+}
+
+form {
+    background-color: #290c29;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+.form h1 {
+    text-align: left;
+    margin-bottom: 15px;
+    color: white;
+}
 
 .tinput {
     border: 1px solid #290c29;
-    
+    margin: 5px 5px 5px 5px;
+}
+
+.tinput:hover {
+    border: 1px dashed #290c29;
+}
+
+#contact-img {
+    background-color: blue;
+    width: 30%;
+    height: 100px;
+    float: right;
+    margin-top: 350px;
+
 }
 
