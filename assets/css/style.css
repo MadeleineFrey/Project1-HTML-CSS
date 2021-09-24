@@ -69,7 +69,7 @@ header {
     border-bottom: 1px solid white;
 }
 
-/* Main page */
+/* Home page */
 
 #home-page {
     height: 500px;
@@ -77,18 +77,13 @@ header {
     margin: 82.5px 50px 0px 50px;
 }
 
-/* width 40 image 60% (check width) */
-
 #home-left {
     background-color: white;
     width: 40%;
-    /* height: 100%; */
     float: left;
     color: #290c29;
-    /* text-align: center; */
     padding: 140px 0 200px 50px;
 }
-
 
 #home-left h1 {
     color: #290c29;
@@ -102,7 +97,7 @@ hr {
     margin: 5px 0;
 }
 
-/* image */
+/* Home image */
 
 #home-right {
     background: url('../images/pexels-photo-office.jpeg') no-repeat center;
@@ -117,7 +112,7 @@ hr {
 /* Home -> contact nav */
 
 #contact-nav {
-padding: 0px 0px 50px 270px;
+padding: 0px 0px 50px 230px;
 
 }
 
@@ -127,14 +122,12 @@ padding: 0px 0px 50px 270px;
     border: 1px solid #290c29;
     background-color: #290c29;
     border-radius: 10px;
-    /* appearance: button; */
     padding: 0px 50px 0px 50px;
     font-size: 2rem;
-
 }
 
+/* Footer */
 
-/* footer */
 footer {
     height: 65px;
     width: 100%;
@@ -161,7 +154,7 @@ footer {
     letter-spacing: 40px;
 }
 
-/* About page */
+/* About Page */
 #about-page {
     color: #290c29;
     height: 300px;
@@ -186,7 +179,7 @@ footer {
     text-align: center;
 }
 
-/* team */
+/* About Team */
 
 #about-team {
     color: #290c29;
@@ -245,10 +238,11 @@ padding-left: 65px;
     width: 70px;
 }
 
-/* contact */
+/* Contact Page */
 
 .form{
     width: 100%;
+    height: 1800px;
 }
 
 .contact-form {
@@ -281,12 +275,32 @@ form {
     border: 1px dashed #290c29;
 }
 
-#contact-img {
-    background-color: blue;
-    width: 30%;
-    height: 100px;
-    float: right;
-    margin-top: 350px;
-
+#contact-info {
+    width: 40%;
+    height: 300px;
+    margin-top: 250px;
+   margin-right: 100px;
+   margin-bottom: 400px;
+   float: right;
 }
+
+#contact-info h1 {
+    color: #290c29;
+}
+
+
+#list-info {
+    color: #290c29;
+    width: 50%;
+    height: inherit;
+    float: left;
+}
+
+#contact-img {
+    background-color: green;
+    width: 50%;
+    height: inherit;
+    float: right;
+}
+
 
