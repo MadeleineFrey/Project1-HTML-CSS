@@ -166,8 +166,12 @@ footer {
 /* About Page */
 #about-page {
     color: #290c29;
-    height: 300px;
+    height: 270px;
     margin: 120px 50px 0 50px;
+}
+
+#about-page p, li {
+    font-size: 1.3rem;
 }
 
 #about-left {
@@ -175,8 +179,10 @@ footer {
     float: left;
 }
 
-#about-left h1 {
+#about-left h1, #about-right h1  {
     text-align: center;
+    font-size: 2rem;
+    
 }
 
 #about-right {
@@ -184,21 +190,28 @@ footer {
     float: right;
 }
 
-#about-right h1 {
-    text-align: center;
-}
-
 /* About Team */
 
 #about-team {
     color: #290c29;
-    height: 200px;
+    height: 190px;
 }
 
 #about-team h2 {
     text-align: center;
     text-decoration: underline 1px solid #290c29;
     padding-bottom: 20px;
+}
+
+#about-team h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+#about-team p {
+font-size: 1.2rem;
+left: 20px;
 }
 
 #left-team {
