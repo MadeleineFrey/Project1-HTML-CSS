@@ -357,3 +357,53 @@ form {
 }
 
 
+/* Media queries */
+
+/* 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    #home-left, #contact-nav {
+        width: 65%;
+    }
+
+    #contact-nav {
+        padding-left: 10%;
+    }
+
+    #home-left p {
+        font-size: 1rem;
+    }
+
+    #home-left h1 {
+        font-size: 2rem;
+}
+}
+
+@media screen and (max-width: 800px) {
+
+    #menu {
+        font-size: 95%;
+    }
+
+    #home-left {
+        padding-left: 0px;
+
+    }
+
+    #contact-nav {
+    top: 600px;
+    left: 57%;
+    padding-left: 10%;
+}
+
+#home-left h1 {
+    text-align: left;
+    padding-top: 2px;
+    font-size: 1.5rem;
+}
+
+#contact-nav a {
+    padding: 0px 25px 0px 25px;
+    font-size: 1.5rem;
+}
+}
