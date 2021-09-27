@@ -101,7 +101,7 @@ FreyTab is a consultant company offering services to custumers in need. A B2C2  
 
 ## Future Features
 
-- I
+- As shown below in the lighthouse section, accessibility is att 88/100. This is a thing I want to change in the future to reach closer to 100.
 
 
 ## Testing
@@ -109,33 +109,46 @@ FreyTab is a consultant company offering services to custumers in need. A B2C2  
 
 ### Screen Size Testing
 
-- 
-    - 
+<p>
+Testing has ben done to mobile, tablet and desktop. (There were no issues with the different screen sizes.)
+</p>
+
+<p>
+TThe form has been tested so that you must enter all required inputs. The required attribute is added to "First Name" input, "Last Name" input, and "Email Address" input. The message input field does not have a required input attribute as it is not necessary for the client to give a message if there is not a need for it. </p> <p>You can not put a non-email address in de email address input field which shows that the test went successfully. 
+</p>
 
 ### Browser Testing
-
-- 
-    - 
+- The site has been tested on both chrome and safari with no issues. 
 
 ### Validator Testing
 
-- 
+- [HTML]()
+    - Passed through the official [W3c validator](https://validator.w3.org).
+
+- [CSS]()
+    - No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+
 
 ### Lighthouse
 
-- Lighthouse showed accessibility 88%
-    - 
+<p>
+Lighthouse is a good tool to use for showing Preformance, Accessibility, Best practices and SEO.
+</p>
+<p>
+As mentioned before accessibility is only 88/100. This is due to not being accessible enough to reach 100/100.
+</p>
 
-### Unfixed Bugs
-
-- 
-    - 
+ - Here is a list of some improvements:
+    - ARIA roles
+    - ARIA toggle fields have accessible names
+    - The document does not use <meta http-equiv="refresh">
 
 ### Fixed Bugs
+- Textare on the contact page would not give a value when sending the form.
+    - Solved by fixing a misspelling of the name attribute.
 
-- 
-    - 
-
+- Navigation link in the footer would not work.
+    - The navigation link to linked in would not work because the link was broken. To solve this, a new link was added.
 
  ## Deployment
  ---
