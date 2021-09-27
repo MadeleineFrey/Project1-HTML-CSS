@@ -14,13 +14,13 @@
 
 <body>
     <header>
-        <a href="index.html">
+        <a href="index.html" aria-label="Visit Freytab homepage (In the same tab)">
             <h1 id="logo">FreyTab</h1>
         </a>
         <div id="menu">
-            <a href="index.html" id="home-nav">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html" class="active">Contact</a>
+            <a href="index.html" id="home-nav" aria-label="Visit Freytab homepage (In the same tab)">Home</a>
+            <a href="about.html" aria-label="Visit Freytab aboutpage (In the same tab)">About</a>
+            <a href="contact.html" class="active" aria-label="Visit Freytab contactpage (In the same tab)">Contact</a>
         </div>
     </header>
     <section class="form">
@@ -29,28 +29,28 @@
                 <h1>Contact Us!</h1>
                 <div>
                     <label for="fname">First Name</label>
-                    <input id="fname" name="first_name" type="text" class="tinput" placeholder="Enter your First Name"
+                    <input aria-label="Pleas enter your First Name" id="fname" name="first_name" type="text" class="tinput" placeholder="Enter your First Name"
                         required>
                 </div>
                 <div>
                     <label for="lname">Last Name</label>
-                    <input id="lname" name="last_name" type="text" class="tinput" placeholder="Enter your Last Name"
+                    <input aria-label="Pleas enter your Last Name" id="lname" name="last_name" type="text" class="tinput" placeholder="Enter your Last Name"
                         required>
                 </div>
                 <div>
                     <label for="email">Email Address</label>
-                    <input id="email" name="email_address" type="email" class="tinput"
+                    <input aria-label="Pleas enter your Email Address" id="email" name="email_address" type="email" class="tinput"
                         placeholder="Enter your Email Address" required>
                 </div>
                 <div>
                     <label for="message">Message</label>
                     <br>
-                    <textarea id="message" name="message" class="tinput" rows="10" cols="35"
+                    <textarea aria-label="Pleas enter your Message" id="message" name="message" class="tinput" rows="10" cols="35"
                         placeholder="Please enter your message"></textarea>
                 </div>
                 <div>
-                    <input id="send" type="submit" value="send">
-                    <input id="reset" type="reset" value="reset">
+                    <input id="send" type="submit" value="send" aria-pressed="false" >
+                    <input id="reset" type="reset" value="reset" aria-pressed="false" >
                 </div>
             </form>
         </div>

@@ -140,9 +140,11 @@ footer {
     width: 100%;
     background-color: #290c29;
     overflow: hidden;
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .social-media {

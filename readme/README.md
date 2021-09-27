@@ -22,7 +22,7 @@ FreyTab is a consultant company offering services to custumers in need. A B2C2  
 ### Mockups
 [Ami.responsivedesign](http://ami.responsivedesign.is
 ) was used to creat the mockups below.
-- [Mockup]()
+- [Mockup](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/Mockups.png)
 
 ### Wireframes
 
@@ -39,9 +39,10 @@ FreyTab is a consultant company offering services to custumers in need. A B2C2  
 - [Contact-Tablet](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/ContactTablet.png)
 - [Contact-Mobile](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/ContactMobile.png)
 
-
-
 ### Screenshots (Of Finnished Site)
+- [Home]()
+- [About]()
+- [contact]()
 
 ## Features
 ---
@@ -122,7 +123,7 @@ FreyTab is a consultant company offering services to custumers in need. A B2C2  
 
 ### Lighthouse
 
-- 
+- Lighthouse showed accessibility 88%
     - 
 
 ### Unfixed Bugs
