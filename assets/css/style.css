@@ -9,7 +9,7 @@
 body {
     font-family: 'Abel', sans-serif;
     font-weight: 300;
-    color:white;
+    color: white;
     max-width: 1800px;
     margin-left: auto;
     margin-right: auto;
@@ -46,7 +46,6 @@ header {
     font-size: 110%;
     letter-spacing: 2px;
     float: right;
-    
 }
 
 #menu,
@@ -58,7 +57,7 @@ header {
     list-style-type: none;
     margin: 40px;
     text-decoration: none;
-    color:inherit;
+    color: inherit;
 }
 
 #menu a:hover {
@@ -81,7 +80,7 @@ header {
     background-color: white;
     float: left;
     color: #290c29;
-    
+
     padding: 120px 0 200px 50px;
     margin-top: 400px;
 }
@@ -118,10 +117,10 @@ hr {
 /* Home -> contact nav */
 
 #contact-nav {
-padding: 0px 0px 50px 230px;
-position: absolute;
-top: 600px;
-left: 57%;
+    padding: 0px 0px 50px 230px;
+    position: absolute;
+    top: 600px;
+    left: 57%;
 
 }
 
@@ -144,7 +143,6 @@ footer {
     overflow: hidden;
     position: absolute;
     left: 0;
-    width: 100%;
     bottom: 0;
 }
 
@@ -152,7 +150,7 @@ footer {
     text-align: center;
 }
 
-.social-media >li {
+.social-media>li {
     display: inline;
 }
 
@@ -170,7 +168,8 @@ footer {
     margin: 120px 50px 0 50px;
 }
 
-#about-page p, li {
+#about-page p,
+li {
     font-size: 1.3rem;
 }
 
@@ -179,10 +178,11 @@ footer {
     float: left;
 }
 
-#about-left h1, #about-right h1  {
+#about-left h1,
+#about-right h1 {
     text-align: center;
     font-size: 2rem;
-    
+
 }
 
 #about-right {
@@ -210,8 +210,8 @@ footer {
 }
 
 #about-team p {
-font-size: 1.2rem;
-left: 20px;
+    font-size: 1.2rem;
+    left: 20px;
 }
 
 #left-team {
@@ -251,10 +251,11 @@ left: 20px;
 }
 
 .team-img p {
-padding-left: 65px;
+    padding-left: 65px;
 }
 
-#send, #reset {
+#send,
+#reset {
     padding: 15px 15px 15px 15px;
     margin: 5px;
     width: 70px;
@@ -271,7 +272,7 @@ padding-left: 65px;
 
 /* Contact Page */
 
-.form{
+.form {
     width: 100%;
 }
 
@@ -314,8 +315,8 @@ form {
     width: 55%;
     height: 400px;
     margin-top: 200px;
-   margin-bottom: 200px;
-   float: right;
+    margin-bottom: 200px;
+    float: right;
 }
 
 #contact-info h1 {
@@ -341,7 +342,7 @@ form {
     width: 100%;
     height: 200px;
 }
- 
+
 #contact-img {
     width: 50%;
     height: inherit;
@@ -363,81 +364,94 @@ form {
 @media screen and (max-width: 1230px) {
     #contact-table tr {
         font-size: 1.3rem;
-}
-
-form {
-    padding: 50px 30px;
-}
-
-}
-@media screen and (max-width: 1200px) {
-   
-   /* Home page */
-    #home-left, #contact-nav {
-        width: 65%;
     }
 
-    #contact-nav {
-        padding-left: 10%;
+    form {
+        padding: 50px 30px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    /* Home page */
+    /* #home-left, #contact-nav {
+        width: 65%;
+    } */
+
+    #home-left h1 {
+        font-size: 2rem;
     }
 
     #home-left p {
         font-size: 1rem;
     }
 
-    #home-left h1 {
-        font-size: 2rem;
-}
+    #contact-nav {
+        padding-left: 20%;
+    }
 
-/* About page */
-#about-page {
-    margin: 12% 25px 0 25px;
-}
+    #contact-nav a {
+        padding: 0px 25px 0px 25px;
+        font-size: 1.7rem;
+    }
 
-#about-page p, li {
-    font-size: 1.1rem;
-}
 
-#about-page h1 {
-    font-size: 1.5rem;
-}
 
-/* Contact Page */
+    /* About page */
+    #about-page {
+        margin: 12% 25px 0 25px;
+    }
 
-/* .form {
-    height: 1200px;
-} */
+    #about-page p,
+    li {
+        font-size: 1.1rem;
+    }
 
-.contact-form {
-float: none;
-width: 395px;
-display: block;
-padding-left: 0px;
-padding-top: 160px;
-margin: 0 auto;
-}
+    #about-page h1 {
+        font-size: 1.5rem;
+    }
 
-#contact-info {
-float: none;
-display: block;
-margin-top: 0px;
-width: 100%;
-}
+    .team-img {
+        margin-bottom: 100px;
+    }
 
-#contact-img {
-    width: 45%;
-    margin-right: 5%;
-}
+    /* Contact Page */
 
-footer {
-    position: fixed;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-}
+    .contact-form {
+        float: none;
+        width: 395px;
+        display: block;
+        padding-left: 0px;
+        padding-top: 160px;
+        margin: 0 auto;
+    }
+
+    #contact-info {
+        float: none;
+        display: block;
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    #contact-img {
+        width: 45%;
+        margin-right: 5%;
+    }
+
+    footer {
+        position: fixed;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
 
 }
 
 @media screen and (max-width: 800px) {
+
+    header {
+        width: 102%;
+    }
 
     #menu {
         font-size: 95%;
@@ -448,57 +462,155 @@ footer {
 
     }
 
+    #home-img {
+        width: 110%;
+    }
+
     #contact-nav {
-    top: 600px;
-    left: 57%;
-    padding-left: 10%;
-}
+        top: 700px;
+        left: 5%;
+        padding-left: 10%;
+    }
 
-#home-left h1 {
-    text-align: left;
-    padding-top: 2px;
-    font-size: 1.5rem;
-}
+    #home-left h1 {
+        text-align: left;
+        padding-top: 2px;
+        font-size: 1.5rem;
+    }
 
-#contact-nav a {
-    padding: 0px 25px 0px 25px;
-    font-size: 1.5rem;
-}
+    #contact-nav a {
+        padding: 0px 25px 0px 25px;
+        font-size: 2rem;
+    }
 
-/* About page */
+    /* About page */
 
-#about-page p {
-    font-size: 0.95rem;
-}
-#left-team {
+    #about-page p {
+        font-size: 0.95rem;
+    }
+
+    /* #left-team {
     float: none;
    margin: 0 auto;
 }
 
 #right-team  {
-    float: right;
-
+    float: none;
+    margin: 0 auto;
 }
 
 #center-team {
-    float: left;
+    float: none;
+    margin: 0 auto;
+} */
+
+    #left-img,
+    #right-img,
+    #center-img {
+        height: 170px;
+        float: none;
+        margin: 0 auto;
+    }
+
+    #about-team h2 {
+        padding-bottom: 10px;
+    }
+
 }
 
-#left-img, #right-img, #center-img {
-    height: 170px;
-}
-
-#about-team h2 {
-    padding-bottom: 10px;
-}
-
-}
 /* 600 width */
 
 @media screen and (max-width: 600px) {
 
- #home-nav {
-     display: none;
- }
+    #logo {
+        font-size: 175%;
+    }
 
+    header {
+        width: 115%;
+    }
+
+    #home-nav {
+        display: none;
+    }
+
+    #home-img {
+        width: 115%;
+        height: 400px;
+    }
+
+    #home-left h1 {
+        font-size: 1.3rem;
+    }
+
+    #contact-nav a {
+        font-size: 1.7rem;
+    }
+
+    #contact-nav {
+        top: 750px;
+    }
+
+    /* About Page */
+    #about-team {
+        position: absolute;
+    }
+
+    #about-page {
+        margin-top: 100px;
+    }
+
+    #about-left p, #about-right li {
+        font-size: 1rem;
+        
+    }
+
+    #about-team {
+        top: 450px;
+        left: 40%;
+        margin: 0 auto;
+    
+    }
+
+    #left-team {
+        float: none;
+        margin: 0 auto;
+        width: 80%;
+       
+    }
+
+    #right-team {
+        float: none;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    #right-team p {
+        font-size: 1rem;
+    }
+
+    #center-team {
+        float: none;
+        margin: 0 auto;
+        width: 80%;
+        
+    }
+
+    .team-img p {
+        padding-bottom: 100px;
+        padding-left: 0px;
+        position: absolute;
+    
+    }
+
+
+}
+
+
+/* Kanske  */
+
+@media screen and (max-width: 530px) {
+    #about-team {
+        top: 550px;
+    }
 }
