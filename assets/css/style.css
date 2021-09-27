@@ -603,6 +603,31 @@ form {
     
     }
 
+    /* Contact Page */
+
+    .form {
+        /* width: 65%; */
+        /* margin-left: 101px;
+        margin-right: 101px; */
+        padding: 15px 15px;
+
+        margin: 0 auto;
+    }
+
+    /* #contact-info {
+        float: none;
+    } */
+
+    #list-info {
+        float: none;
+        margin: 0 auto;
+    }
+
+    #contact-img {
+        float: none;
+        margin: 0 auto;
+        width: 55%;
+    }
 
 }
 
@@ -612,5 +637,23 @@ form {
 @media screen and (max-width: 530px) {
     #about-team {
         top: 550px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    #logo {
+font-size: 100%;
+    }
+
+    #menu a {
+        font-size: 90%;
+    }
+
+    #about-team {
+        top: 700px;
+    }
+
+    .contact-form {
+        width: 325px;
     }
 }
