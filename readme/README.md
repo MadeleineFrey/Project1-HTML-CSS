@@ -19,12 +19,27 @@ FreyTab is a consultant company offering services to custumers in need. A B2C2  
 ### Responsive Design
 - Media queries were used to make the site responsive on all devices (desktop, mobile, tablet).
 
+### Mockups
+[Ami.responsivedesign](http://ami.responsivedesign.is
+) was used to creat the mockups below.
+- [Mockup]()
+
 ### Wireframes
 
 [Balsamiq](https://balsamiq.com
 ) Was used to creat the wireframes below.
 
-![Home](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/HomeDesktop.png)
+- [Home-Desktop](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/HomeDesktop.png)
+- [Home-Tablet](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/HomeTablet.png)
+- [Home-Mobile](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/HomeMobile.png)
+- [About-Desktop](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/AboutDesktop.png)
+- [About-Tablet](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/AboutTablet.png)
+- [About-Mobile](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/AboutMobile.png)
+- [Contact-Desktop](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/ContactDesktop.png)
+- [Contact-Tablet](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/ContactTablet.png)
+- [Contact-Mobile](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/ContactMobile.png)
+
+
 
 ### Screenshots (Of Finnished Site)
 
