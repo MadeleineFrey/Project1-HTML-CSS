@@ -24,7 +24,7 @@ FreyTab is a consultant company offering services to custumers in need. A B2C2  
 [Balsamiq](https://balsamiq.com
 ) Was used to creat the wireframes below.
 
-[![Home](homeDesktop.png)
+![Home](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/HomeDesktop.png)
 
 ### Screenshots (Of Finnished Site)
 
