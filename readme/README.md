@@ -53,15 +53,15 @@ The ideal client is companies wanting/are interested in lean and agile transform
 [Balsamiq](https://balsamiq.com
 ) Was used to creat the wireframes below.
 
-- [Home-Desktop](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/HomeDesktop.png)
-- [Home-Tablet](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/HomeTablet.png)
-- [Home-Mobile](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/HomeMobile.png)
-- [About-Desktop](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/AboutDesktop.png)
-- [About-Tablet](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/AboutTablet.png)
-- [About-Mobile](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/AboutMobile.png)
-- [Contact-Desktop](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/ContactDesktop.png)
-- [Contact-Tablet](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/ContactTablet.png)
-- [Contact-Mobile](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/ContactMobile.png)
+- [Home-Desktop](media/HomeDesktop.png)
+- [Home-Tablet](media/HomeTablet.png)
+- [Home-Mobile](media/HomeMobile.png)
+- [About-Desktop](media/AboutDesktop.png)
+- [About-Tablet](media/AboutTablet.png)
+- [About-Mobile](media/AboutMobile.png)
+- [Contact-Desktop](mobile/ContactDesktop.png)
+- [Contact-Tablet](media/ContactTablet.png)
+- [Contact-Mobile](media/ContactTablet.png)
 
 ### Screenshots (Of Finnished Site)
 - [Home](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/SHome%20.png)
