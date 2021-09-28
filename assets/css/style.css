@@ -15,7 +15,7 @@ body {
     margin-right: auto;
 }
 
-/* headings and logo */
+/* Headings and Logo */
 
 h1,
 h2 {
@@ -68,7 +68,7 @@ header {
     border-bottom: 1px solid white;
 }
 
-/* Home page */
+/* Home Page */
 
 #home-page {
     height: 500px;
@@ -102,7 +102,7 @@ hr {
     margin: 5px 0;
 }
 
-/* Home image */
+/* Home Image */
 
 #home-img {
     background: url('../images/pexels-photo-office.jpeg') no-repeat center;
@@ -114,7 +114,7 @@ hr {
     left: 0;
 }
 
-/* Home contact nav */
+/* Home Contact Nav */
 
 #contact-nav {
     padding: 0px 0px 50px 230px;
@@ -357,9 +357,10 @@ form {
     margin-left: 20px;
 }
 
-/* Media queries */
+/* Media Queries */
 
-/* 1200px wide and down */
+/* 1230px wide and down */
+
 @media screen and (max-width: 1230px) {
     #contact-table tr {
         font-size: 1.3rem;
@@ -370,9 +371,11 @@ form {
     }
 }
 
+/* 1200px wide and down */
+
 @media screen and (max-width: 1200px) {
 
-    /* Home page */
+    /* Home Page */
 
     #home-left h1 {
         font-size: 2rem;
@@ -391,7 +394,7 @@ form {
         font-size: 1.7rem;
     }
 
-    /* About page */
+    /* About Page */
     #about-page {
         margin: 12% 25px 0 25px;
     }
@@ -448,6 +451,8 @@ form {
     #menu {
         font-size: 95%;
     }
+    
+    /* Home page */
 
     #home-left {
         padding-left: 0px;
@@ -493,7 +498,7 @@ form {
     }
 }
 
-/* 600 width */
+/* 600 wide and down */
 
 @media screen and (max-width: 600px) {
 
@@ -509,6 +514,7 @@ form {
         display: none;
     }
 
+    /* Home Page */
     #home-img {
         width: 115%;
         height: 400px;
@@ -594,13 +600,15 @@ form {
     }
 }
 
-/* Kanske  */
+/* 530px wide and down */
 
 @media screen and (max-width: 530px) {
     #about-team {
         top: 550px;
     }
 }
+
+/* 370px wide and down */
 
 @media screen and (max-width: 370px) {
     #logo {
