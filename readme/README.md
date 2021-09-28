@@ -46,7 +46,7 @@ The ideal client is companies wanting/are interested in lean and agile transform
 ### Mockups
 [Ami.responsivedesign](http://ami.responsivedesign.is
 ) was used to creat the mockups below.
-- [Mockup](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/Mockups.png)
+- [Mockup](media/Mockups.png)
 
 ### Wireframes
 
