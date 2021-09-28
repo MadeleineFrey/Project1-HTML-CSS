@@ -59,14 +59,14 @@ The ideal client is companies wanting/are interested in lean and agile transform
 - [About-Desktop](media/AboutDesktop.png)
 - [About-Tablet](media/AboutTablet.png)
 - [About-Mobile](media/AboutMobile.png)
-- [Contact-Desktop](mobile/ContactDesktop.png)
+- [Contact-Desktop](media/ContactDesktop.png)
 - [Contact-Tablet](media/ContactTablet.png)
 - [Contact-Mobile](media/ContactTablet.png)
 
 ### Screenshots (Of Finnished Site)
-- [Home](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/SHome%20.png)
-- [About](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/SAbout.png)
-- [contact](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/SContact.png)
+- [Home](media/SHome.png)
+- [About](media/SAbout.png)
+- [contact](media/SContact.png)
 
 ## Features
 ---
@@ -145,11 +145,11 @@ The form has been tested so that you must enter all required inputs. The require
 
 ### Validator Testing
 
-- [HTML](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/W3CHTML.png)
+- [HTML](media/W3CHTML.png)
     - Passed through the official [W3c validator](https://validator.w3.org).
     - (Two warnings that is not relevant to the site)
 
-- [CSS](https://github.com/MadeleineFrey/Project1-HTML-CSS/blob/main/readme/Media/Jigsaw(Css).png)
+- [CSS](media/Jigsaw(Css).png)
     - No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
 
 
